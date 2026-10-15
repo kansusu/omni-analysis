@@ -1,0 +1,10 @@
+# GPU box (running the model): see the Qwen3-Omni / vLLM docs for matching CUDA builds
+vllm
+transformers
+qwen-omni-utils
+
+# optional: validates AMR output (the runner still works without it)
+penman
+
+# the visualizer, omni_sim and the tests use only the Python standard library
+# system tools: ffmpeg + ffprobe on PATH

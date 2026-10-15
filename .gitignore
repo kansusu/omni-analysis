@@ -1,0 +1,19 @@
+# generated outputs and reports (contain transcripts of study participants)
+omni_out*/
+chunks/
+results*/
+report*.html
+*.zip
+*.jsonl
+
+# media
+*.mp4
+*.mov
+*.avi
+*.wav
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
